@@ -4,6 +4,7 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
+#Add comment to force workflow
 env:
   RESOURCE-GROUP: rg-eshoponweb-rkobzarenko
   LOCATION: polandcentral
